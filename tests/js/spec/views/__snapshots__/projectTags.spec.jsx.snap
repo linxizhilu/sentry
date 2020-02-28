@@ -360,111 +360,134 @@ exports[`ProjectTags renders 1`] = `
                                       priority="primary"
                                       stopPropagation={false}
                                     >
-                                      <a
+                                      <Link
                                         className=""
                                         disabled={false}
                                         onClick={[Function]}
                                         title="Remove tag?"
                                       >
-                                        <forwardRef<Button>
-                                          data-test-id="delete"
+                                        <Anchor
+                                          className=""
                                           disabled={false}
-                                          icon="icon-trash"
-                                          size="xsmall"
+                                          href="#"
+                                          onClick={[Function]}
+                                          title="Remove tag?"
                                         >
-                                          <Button
-                                            align="center"
-                                            data-test-id="delete"
+                                          <Component
+                                            className=" css-34e2lm-Anchor e18jdd0v0"
                                             disabled={false}
-                                            forwardRef={null}
-                                            icon="icon-trash"
-                                            size="xsmall"
+                                            href="#"
+                                            onClick={[Function]}
+                                            title="Remove tag?"
                                           >
-                                            <StyledButton
-                                              aria-disabled={false}
-                                              data-test-id="delete"
-                                              disabled={false}
-                                              forwardRef={null}
+                                            <a
+                                              className=" css-34e2lm-Anchor e18jdd0v0"
+                                              href="#"
                                               onClick={[Function]}
-                                              role="button"
-                                              size="xsmall"
+                                              title="Remove tag?"
                                             >
-                                              <Component
-                                                aria-disabled={false}
-                                                className="css-12ogwys-StyledButton edwq9my0"
+                                              <forwardRef<Button>
                                                 data-test-id="delete"
-                                                forwardRef={null}
-                                                onClick={[Function]}
-                                                role="button"
+                                                disabled={false}
+                                                icon="icon-trash"
                                                 size="xsmall"
                                               >
-                                                <button
-                                                  aria-disabled={false}
-                                                  className="css-12ogwys-StyledButton edwq9my0"
+                                                <Button
+                                                  align="center"
                                                   data-test-id="delete"
-                                                  onClick={[Function]}
-                                                  role="button"
+                                                  disabled={false}
+                                                  forwardRef={null}
+                                                  icon="icon-trash"
                                                   size="xsmall"
                                                 >
-                                                  <ButtonLabel
-                                                    align="center"
+                                                  <StyledButton
+                                                    aria-disabled={false}
+                                                    data-test-id="delete"
+                                                    disabled={false}
+                                                    forwardRef={null}
+                                                    onClick={[Function]}
+                                                    role="button"
                                                     size="xsmall"
                                                   >
                                                     <Component
-                                                      align="center"
-                                                      className="css-cmi7y3-ButtonLabel edwq9my1"
+                                                      aria-disabled={false}
+                                                      className="css-12ogwys-StyledButton edwq9my0"
+                                                      data-test-id="delete"
+                                                      forwardRef={null}
+                                                      onClick={[Function]}
+                                                      role="button"
                                                       size="xsmall"
                                                     >
-                                                      <span
-                                                        className="css-cmi7y3-ButtonLabel edwq9my1"
+                                                      <button
+                                                        aria-disabled={false}
+                                                        className="css-12ogwys-StyledButton edwq9my0"
+                                                        data-test-id="delete"
+                                                        onClick={[Function]}
+                                                        role="button"
+                                                        size="xsmall"
                                                       >
-                                                        <Icon
-                                                          hasChildren={false}
+                                                        <ButtonLabel
+                                                          align="center"
                                                           size="xsmall"
                                                         >
                                                           <Component
-                                                            className="css-1j44i9a-Icon edwq9my2"
-                                                            hasChildren={false}
+                                                            align="center"
+                                                            className="css-cmi7y3-ButtonLabel edwq9my1"
                                                             size="xsmall"
                                                           >
                                                             <span
-                                                              className="css-1j44i9a-Icon edwq9my2"
-                                                              size="xsmall"
+                                                              className="css-cmi7y3-ButtonLabel edwq9my1"
                                                             >
-                                                              <StyledInlineSvg
-                                                                size="12px"
-                                                                src="icon-trash"
+                                                              <Icon
+                                                                hasChildren={false}
+                                                                size="xsmall"
                                                               >
-                                                                <ForwardRef
-                                                                  className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
-                                                                  size="12px"
-                                                                  src="icon-trash"
+                                                                <Component
+                                                                  className="css-1j44i9a-Icon edwq9my2"
+                                                                  hasChildren={false}
+                                                                  size="xsmall"
                                                                 >
-                                                                  <svg
-                                                                    className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
-                                                                    height="12px"
-                                                                    viewBox={Object {}}
-                                                                    width="12px"
+                                                                  <span
+                                                                    className="css-1j44i9a-Icon edwq9my2"
+                                                                    size="xsmall"
                                                                   >
-                                                                    <use
-                                                                      href="#test"
-                                                                      xlinkHref="#test"
-                                                                    />
-                                                                  </svg>
-                                                                </ForwardRef>
-                                                              </StyledInlineSvg>
+                                                                    <StyledInlineSvg
+                                                                      size="12px"
+                                                                      src="icon-trash"
+                                                                    >
+                                                                      <ForwardRef
+                                                                        className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
+                                                                        size="12px"
+                                                                        src="icon-trash"
+                                                                      >
+                                                                        <svg
+                                                                          className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
+                                                                          height="12px"
+                                                                          viewBox={Object {}}
+                                                                          width="12px"
+                                                                        >
+                                                                          <use
+                                                                            href="#test"
+                                                                            xlinkHref="#test"
+                                                                          />
+                                                                        </svg>
+                                                                      </ForwardRef>
+                                                                    </StyledInlineSvg>
+                                                                  </span>
+                                                                </Component>
+                                                              </Icon>
                                                             </span>
                                                           </Component>
-                                                        </Icon>
-                                                      </span>
+                                                        </ButtonLabel>
+                                                      </button>
                                                     </Component>
-                                                  </ButtonLabel>
-                                                </button>
-                                              </Component>
-                                            </StyledButton>
-                                          </Button>
-                                        </forwardRef<Button>>
-                                      </a>
+                                                  </StyledButton>
+                                                </Button>
+                                              </forwardRef<Button>>
+                                            </a>
+                                          </Component>
+                                        </Anchor>
+                                      </Link>
                                       <Modal
                                         animation={false}
                                         autoFocus={true}
@@ -566,111 +589,134 @@ exports[`ProjectTags renders 1`] = `
                                       priority="primary"
                                       stopPropagation={false}
                                     >
-                                      <a
+                                      <Link
                                         className=""
                                         disabled={false}
                                         onClick={[Function]}
                                         title="Remove tag?"
                                       >
-                                        <forwardRef<Button>
-                                          data-test-id="delete"
+                                        <Anchor
+                                          className=""
                                           disabled={false}
-                                          icon="icon-trash"
-                                          size="xsmall"
+                                          href="#"
+                                          onClick={[Function]}
+                                          title="Remove tag?"
                                         >
-                                          <Button
-                                            align="center"
-                                            data-test-id="delete"
+                                          <Component
+                                            className=" css-34e2lm-Anchor e18jdd0v0"
                                             disabled={false}
-                                            forwardRef={null}
-                                            icon="icon-trash"
-                                            size="xsmall"
+                                            href="#"
+                                            onClick={[Function]}
+                                            title="Remove tag?"
                                           >
-                                            <StyledButton
-                                              aria-disabled={false}
-                                              data-test-id="delete"
-                                              disabled={false}
-                                              forwardRef={null}
+                                            <a
+                                              className=" css-34e2lm-Anchor e18jdd0v0"
+                                              href="#"
                                               onClick={[Function]}
-                                              role="button"
-                                              size="xsmall"
+                                              title="Remove tag?"
                                             >
-                                              <Component
-                                                aria-disabled={false}
-                                                className="css-12ogwys-StyledButton edwq9my0"
+                                              <forwardRef<Button>
                                                 data-test-id="delete"
-                                                forwardRef={null}
-                                                onClick={[Function]}
-                                                role="button"
+                                                disabled={false}
+                                                icon="icon-trash"
                                                 size="xsmall"
                                               >
-                                                <button
-                                                  aria-disabled={false}
-                                                  className="css-12ogwys-StyledButton edwq9my0"
+                                                <Button
+                                                  align="center"
                                                   data-test-id="delete"
-                                                  onClick={[Function]}
-                                                  role="button"
+                                                  disabled={false}
+                                                  forwardRef={null}
+                                                  icon="icon-trash"
                                                   size="xsmall"
                                                 >
-                                                  <ButtonLabel
-                                                    align="center"
+                                                  <StyledButton
+                                                    aria-disabled={false}
+                                                    data-test-id="delete"
+                                                    disabled={false}
+                                                    forwardRef={null}
+                                                    onClick={[Function]}
+                                                    role="button"
                                                     size="xsmall"
                                                   >
                                                     <Component
-                                                      align="center"
-                                                      className="css-cmi7y3-ButtonLabel edwq9my1"
+                                                      aria-disabled={false}
+                                                      className="css-12ogwys-StyledButton edwq9my0"
+                                                      data-test-id="delete"
+                                                      forwardRef={null}
+                                                      onClick={[Function]}
+                                                      role="button"
                                                       size="xsmall"
                                                     >
-                                                      <span
-                                                        className="css-cmi7y3-ButtonLabel edwq9my1"
+                                                      <button
+                                                        aria-disabled={false}
+                                                        className="css-12ogwys-StyledButton edwq9my0"
+                                                        data-test-id="delete"
+                                                        onClick={[Function]}
+                                                        role="button"
+                                                        size="xsmall"
                                                       >
-                                                        <Icon
-                                                          hasChildren={false}
+                                                        <ButtonLabel
+                                                          align="center"
                                                           size="xsmall"
                                                         >
                                                           <Component
-                                                            className="css-1j44i9a-Icon edwq9my2"
-                                                            hasChildren={false}
+                                                            align="center"
+                                                            className="css-cmi7y3-ButtonLabel edwq9my1"
                                                             size="xsmall"
                                                           >
                                                             <span
-                                                              className="css-1j44i9a-Icon edwq9my2"
-                                                              size="xsmall"
+                                                              className="css-cmi7y3-ButtonLabel edwq9my1"
                                                             >
-                                                              <StyledInlineSvg
-                                                                size="12px"
-                                                                src="icon-trash"
+                                                              <Icon
+                                                                hasChildren={false}
+                                                                size="xsmall"
                                                               >
-                                                                <ForwardRef
-                                                                  className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
-                                                                  size="12px"
-                                                                  src="icon-trash"
+                                                                <Component
+                                                                  className="css-1j44i9a-Icon edwq9my2"
+                                                                  hasChildren={false}
+                                                                  size="xsmall"
                                                                 >
-                                                                  <svg
-                                                                    className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
-                                                                    height="12px"
-                                                                    viewBox={Object {}}
-                                                                    width="12px"
+                                                                  <span
+                                                                    className="css-1j44i9a-Icon edwq9my2"
+                                                                    size="xsmall"
                                                                   >
-                                                                    <use
-                                                                      href="#test"
-                                                                      xlinkHref="#test"
-                                                                    />
-                                                                  </svg>
-                                                                </ForwardRef>
-                                                              </StyledInlineSvg>
+                                                                    <StyledInlineSvg
+                                                                      size="12px"
+                                                                      src="icon-trash"
+                                                                    >
+                                                                      <ForwardRef
+                                                                        className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
+                                                                        size="12px"
+                                                                        src="icon-trash"
+                                                                      >
+                                                                        <svg
+                                                                          className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
+                                                                          height="12px"
+                                                                          viewBox={Object {}}
+                                                                          width="12px"
+                                                                        >
+                                                                          <use
+                                                                            href="#test"
+                                                                            xlinkHref="#test"
+                                                                          />
+                                                                        </svg>
+                                                                      </ForwardRef>
+                                                                    </StyledInlineSvg>
+                                                                  </span>
+                                                                </Component>
+                                                              </Icon>
                                                             </span>
                                                           </Component>
-                                                        </Icon>
-                                                      </span>
+                                                        </ButtonLabel>
+                                                      </button>
                                                     </Component>
-                                                  </ButtonLabel>
-                                                </button>
-                                              </Component>
-                                            </StyledButton>
-                                          </Button>
-                                        </forwardRef<Button>>
-                                      </a>
+                                                  </StyledButton>
+                                                </Button>
+                                              </forwardRef<Button>>
+                                            </a>
+                                          </Component>
+                                        </Anchor>
+                                      </Link>
                                       <Modal
                                         animation={false}
                                         autoFocus={true}
@@ -772,111 +818,134 @@ exports[`ProjectTags renders 1`] = `
                                       priority="primary"
                                       stopPropagation={false}
                                     >
-                                      <a
+                                      <Link
                                         className=""
                                         disabled={false}
                                         onClick={[Function]}
                                         title="Remove tag?"
                                       >
-                                        <forwardRef<Button>
-                                          data-test-id="delete"
+                                        <Anchor
+                                          className=""
                                           disabled={false}
-                                          icon="icon-trash"
-                                          size="xsmall"
+                                          href="#"
+                                          onClick={[Function]}
+                                          title="Remove tag?"
                                         >
-                                          <Button
-                                            align="center"
-                                            data-test-id="delete"
+                                          <Component
+                                            className=" css-34e2lm-Anchor e18jdd0v0"
                                             disabled={false}
-                                            forwardRef={null}
-                                            icon="icon-trash"
-                                            size="xsmall"
+                                            href="#"
+                                            onClick={[Function]}
+                                            title="Remove tag?"
                                           >
-                                            <StyledButton
-                                              aria-disabled={false}
-                                              data-test-id="delete"
-                                              disabled={false}
-                                              forwardRef={null}
+                                            <a
+                                              className=" css-34e2lm-Anchor e18jdd0v0"
+                                              href="#"
                                               onClick={[Function]}
-                                              role="button"
-                                              size="xsmall"
+                                              title="Remove tag?"
                                             >
-                                              <Component
-                                                aria-disabled={false}
-                                                className="css-12ogwys-StyledButton edwq9my0"
+                                              <forwardRef<Button>
                                                 data-test-id="delete"
-                                                forwardRef={null}
-                                                onClick={[Function]}
-                                                role="button"
+                                                disabled={false}
+                                                icon="icon-trash"
                                                 size="xsmall"
                                               >
-                                                <button
-                                                  aria-disabled={false}
-                                                  className="css-12ogwys-StyledButton edwq9my0"
+                                                <Button
+                                                  align="center"
                                                   data-test-id="delete"
-                                                  onClick={[Function]}
-                                                  role="button"
+                                                  disabled={false}
+                                                  forwardRef={null}
+                                                  icon="icon-trash"
                                                   size="xsmall"
                                                 >
-                                                  <ButtonLabel
-                                                    align="center"
+                                                  <StyledButton
+                                                    aria-disabled={false}
+                                                    data-test-id="delete"
+                                                    disabled={false}
+                                                    forwardRef={null}
+                                                    onClick={[Function]}
+                                                    role="button"
                                                     size="xsmall"
                                                   >
                                                     <Component
-                                                      align="center"
-                                                      className="css-cmi7y3-ButtonLabel edwq9my1"
+                                                      aria-disabled={false}
+                                                      className="css-12ogwys-StyledButton edwq9my0"
+                                                      data-test-id="delete"
+                                                      forwardRef={null}
+                                                      onClick={[Function]}
+                                                      role="button"
                                                       size="xsmall"
                                                     >
-                                                      <span
-                                                        className="css-cmi7y3-ButtonLabel edwq9my1"
+                                                      <button
+                                                        aria-disabled={false}
+                                                        className="css-12ogwys-StyledButton edwq9my0"
+                                                        data-test-id="delete"
+                                                        onClick={[Function]}
+                                                        role="button"
+                                                        size="xsmall"
                                                       >
-                                                        <Icon
-                                                          hasChildren={false}
+                                                        <ButtonLabel
+                                                          align="center"
                                                           size="xsmall"
                                                         >
                                                           <Component
-                                                            className="css-1j44i9a-Icon edwq9my2"
-                                                            hasChildren={false}
+                                                            align="center"
+                                                            className="css-cmi7y3-ButtonLabel edwq9my1"
                                                             size="xsmall"
                                                           >
                                                             <span
-                                                              className="css-1j44i9a-Icon edwq9my2"
-                                                              size="xsmall"
+                                                              className="css-cmi7y3-ButtonLabel edwq9my1"
                                                             >
-                                                              <StyledInlineSvg
-                                                                size="12px"
-                                                                src="icon-trash"
+                                                              <Icon
+                                                                hasChildren={false}
+                                                                size="xsmall"
                                                               >
-                                                                <ForwardRef
-                                                                  className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
-                                                                  size="12px"
-                                                                  src="icon-trash"
+                                                                <Component
+                                                                  className="css-1j44i9a-Icon edwq9my2"
+                                                                  hasChildren={false}
+                                                                  size="xsmall"
                                                                 >
-                                                                  <svg
-                                                                    className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
-                                                                    height="12px"
-                                                                    viewBox={Object {}}
-                                                                    width="12px"
+                                                                  <span
+                                                                    className="css-1j44i9a-Icon edwq9my2"
+                                                                    size="xsmall"
                                                                   >
-                                                                    <use
-                                                                      href="#test"
-                                                                      xlinkHref="#test"
-                                                                    />
-                                                                  </svg>
-                                                                </ForwardRef>
-                                                              </StyledInlineSvg>
+                                                                    <StyledInlineSvg
+                                                                      size="12px"
+                                                                      src="icon-trash"
+                                                                    >
+                                                                      <ForwardRef
+                                                                        className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
+                                                                        size="12px"
+                                                                        src="icon-trash"
+                                                                      >
+                                                                        <svg
+                                                                          className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
+                                                                          height="12px"
+                                                                          viewBox={Object {}}
+                                                                          width="12px"
+                                                                        >
+                                                                          <use
+                                                                            href="#test"
+                                                                            xlinkHref="#test"
+                                                                          />
+                                                                        </svg>
+                                                                      </ForwardRef>
+                                                                    </StyledInlineSvg>
+                                                                  </span>
+                                                                </Component>
+                                                              </Icon>
                                                             </span>
                                                           </Component>
-                                                        </Icon>
-                                                      </span>
+                                                        </ButtonLabel>
+                                                      </button>
                                                     </Component>
-                                                  </ButtonLabel>
-                                                </button>
-                                              </Component>
-                                            </StyledButton>
-                                          </Button>
-                                        </forwardRef<Button>>
-                                      </a>
+                                                  </StyledButton>
+                                                </Button>
+                                              </forwardRef<Button>>
+                                            </a>
+                                          </Component>
+                                        </Anchor>
+                                      </Link>
                                       <Modal
                                         animation={false}
                                         autoFocus={true}
@@ -999,111 +1068,134 @@ exports[`ProjectTags renders 1`] = `
                                                 priority="primary"
                                                 stopPropagation={false}
                                               >
-                                                <a
+                                                <Link
                                                   className="disabled"
                                                   disabled={true}
                                                   onClick={[Function]}
                                                   title="Remove tag?"
                                                 >
-                                                  <forwardRef<Button>
-                                                    data-test-id="delete"
+                                                  <Anchor
+                                                    className="disabled"
                                                     disabled={true}
-                                                    icon="icon-trash"
-                                                    size="xsmall"
+                                                    href="#"
+                                                    onClick={[Function]}
+                                                    title="Remove tag?"
                                                   >
-                                                    <Button
-                                                      align="center"
-                                                      data-test-id="delete"
+                                                    <Component
+                                                      className="disabled css-a8huvi-Anchor e18jdd0v0"
                                                       disabled={true}
-                                                      forwardRef={null}
-                                                      icon="icon-trash"
-                                                      size="xsmall"
+                                                      href="#"
+                                                      onClick={[Function]}
+                                                      title="Remove tag?"
                                                     >
-                                                      <StyledButton
-                                                        aria-disabled={true}
-                                                        data-test-id="delete"
-                                                        disabled={true}
-                                                        forwardRef={null}
+                                                      <a
+                                                        className="disabled css-a8huvi-Anchor e18jdd0v0"
+                                                        href="#"
                                                         onClick={[Function]}
-                                                        role="button"
-                                                        size="xsmall"
+                                                        title="Remove tag?"
                                                       >
-                                                        <Component
-                                                          aria-disabled={true}
-                                                          className="css-1lloe1u-StyledButton edwq9my0"
+                                                        <forwardRef<Button>
                                                           data-test-id="delete"
-                                                          forwardRef={null}
-                                                          onClick={[Function]}
-                                                          role="button"
+                                                          disabled={true}
+                                                          icon="icon-trash"
                                                           size="xsmall"
                                                         >
-                                                          <button
-                                                            aria-disabled={true}
-                                                            className="css-1lloe1u-StyledButton edwq9my0"
+                                                          <Button
+                                                            align="center"
                                                             data-test-id="delete"
-                                                            onClick={[Function]}
-                                                            role="button"
+                                                            disabled={true}
+                                                            forwardRef={null}
+                                                            icon="icon-trash"
                                                             size="xsmall"
                                                           >
-                                                            <ButtonLabel
-                                                              align="center"
+                                                            <StyledButton
+                                                              aria-disabled={true}
+                                                              data-test-id="delete"
+                                                              disabled={true}
+                                                              forwardRef={null}
+                                                              onClick={[Function]}
+                                                              role="button"
                                                               size="xsmall"
                                                             >
                                                               <Component
-                                                                align="center"
-                                                                className="css-cmi7y3-ButtonLabel edwq9my1"
+                                                                aria-disabled={true}
+                                                                className="css-1lloe1u-StyledButton edwq9my0"
+                                                                data-test-id="delete"
+                                                                forwardRef={null}
+                                                                onClick={[Function]}
+                                                                role="button"
                                                                 size="xsmall"
                                                               >
-                                                                <span
-                                                                  className="css-cmi7y3-ButtonLabel edwq9my1"
+                                                                <button
+                                                                  aria-disabled={true}
+                                                                  className="css-1lloe1u-StyledButton edwq9my0"
+                                                                  data-test-id="delete"
+                                                                  onClick={[Function]}
+                                                                  role="button"
+                                                                  size="xsmall"
                                                                 >
-                                                                  <Icon
-                                                                    hasChildren={false}
+                                                                  <ButtonLabel
+                                                                    align="center"
                                                                     size="xsmall"
                                                                   >
                                                                     <Component
-                                                                      className="css-1j44i9a-Icon edwq9my2"
-                                                                      hasChildren={false}
+                                                                      align="center"
+                                                                      className="css-cmi7y3-ButtonLabel edwq9my1"
                                                                       size="xsmall"
                                                                     >
                                                                       <span
-                                                                        className="css-1j44i9a-Icon edwq9my2"
-                                                                        size="xsmall"
+                                                                        className="css-cmi7y3-ButtonLabel edwq9my1"
                                                                       >
-                                                                        <StyledInlineSvg
-                                                                          size="12px"
-                                                                          src="icon-trash"
+                                                                        <Icon
+                                                                          hasChildren={false}
+                                                                          size="xsmall"
                                                                         >
-                                                                          <ForwardRef
-                                                                            className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
-                                                                            size="12px"
-                                                                            src="icon-trash"
+                                                                          <Component
+                                                                            className="css-1j44i9a-Icon edwq9my2"
+                                                                            hasChildren={false}
+                                                                            size="xsmall"
                                                                           >
-                                                                            <svg
-                                                                              className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
-                                                                              height="12px"
-                                                                              viewBox={Object {}}
-                                                                              width="12px"
+                                                                            <span
+                                                                              className="css-1j44i9a-Icon edwq9my2"
+                                                                              size="xsmall"
                                                                             >
-                                                                              <use
-                                                                                href="#test"
-                                                                                xlinkHref="#test"
-                                                                              />
-                                                                            </svg>
-                                                                          </ForwardRef>
-                                                                        </StyledInlineSvg>
+                                                                              <StyledInlineSvg
+                                                                                size="12px"
+                                                                                src="icon-trash"
+                                                                              >
+                                                                                <ForwardRef
+                                                                                  className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
+                                                                                  size="12px"
+                                                                                  src="icon-trash"
+                                                                                >
+                                                                                  <svg
+                                                                                    className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
+                                                                                    height="12px"
+                                                                                    viewBox={Object {}}
+                                                                                    width="12px"
+                                                                                  >
+                                                                                    <use
+                                                                                      href="#test"
+                                                                                      xlinkHref="#test"
+                                                                                    />
+                                                                                  </svg>
+                                                                                </ForwardRef>
+                                                                              </StyledInlineSvg>
+                                                                            </span>
+                                                                          </Component>
+                                                                        </Icon>
                                                                       </span>
                                                                     </Component>
-                                                                  </Icon>
-                                                                </span>
+                                                                  </ButtonLabel>
+                                                                </button>
                                                               </Component>
-                                                            </ButtonLabel>
-                                                          </button>
-                                                        </Component>
-                                                      </StyledButton>
-                                                    </Button>
-                                                  </forwardRef<Button>>
-                                                </a>
+                                                            </StyledButton>
+                                                          </Button>
+                                                        </forwardRef<Button>>
+                                                      </a>
+                                                    </Component>
+                                                  </Anchor>
+                                                </Link>
                                                 <Modal
                                                   animation={false}
                                                   autoFocus={true}
@@ -1230,111 +1322,134 @@ exports[`ProjectTags renders 1`] = `
                                                 priority="primary"
                                                 stopPropagation={false}
                                               >
-                                                <a
+                                                <Link
                                                   className="disabled"
                                                   disabled={true}
                                                   onClick={[Function]}
                                                   title="Remove tag?"
                                                 >
-                                                  <forwardRef<Button>
-                                                    data-test-id="delete"
+                                                  <Anchor
+                                                    className="disabled"
                                                     disabled={true}
-                                                    icon="icon-trash"
-                                                    size="xsmall"
+                                                    href="#"
+                                                    onClick={[Function]}
+                                                    title="Remove tag?"
                                                   >
-                                                    <Button
-                                                      align="center"
-                                                      data-test-id="delete"
+                                                    <Component
+                                                      className="disabled css-a8huvi-Anchor e18jdd0v0"
                                                       disabled={true}
-                                                      forwardRef={null}
-                                                      icon="icon-trash"
-                                                      size="xsmall"
+                                                      href="#"
+                                                      onClick={[Function]}
+                                                      title="Remove tag?"
                                                     >
-                                                      <StyledButton
-                                                        aria-disabled={true}
-                                                        data-test-id="delete"
-                                                        disabled={true}
-                                                        forwardRef={null}
+                                                      <a
+                                                        className="disabled css-a8huvi-Anchor e18jdd0v0"
+                                                        href="#"
                                                         onClick={[Function]}
-                                                        role="button"
-                                                        size="xsmall"
+                                                        title="Remove tag?"
                                                       >
-                                                        <Component
-                                                          aria-disabled={true}
-                                                          className="css-1lloe1u-StyledButton edwq9my0"
+                                                        <forwardRef<Button>
                                                           data-test-id="delete"
-                                                          forwardRef={null}
-                                                          onClick={[Function]}
-                                                          role="button"
+                                                          disabled={true}
+                                                          icon="icon-trash"
                                                           size="xsmall"
                                                         >
-                                                          <button
-                                                            aria-disabled={true}
-                                                            className="css-1lloe1u-StyledButton edwq9my0"
+                                                          <Button
+                                                            align="center"
                                                             data-test-id="delete"
-                                                            onClick={[Function]}
-                                                            role="button"
+                                                            disabled={true}
+                                                            forwardRef={null}
+                                                            icon="icon-trash"
                                                             size="xsmall"
                                                           >
-                                                            <ButtonLabel
-                                                              align="center"
+                                                            <StyledButton
+                                                              aria-disabled={true}
+                                                              data-test-id="delete"
+                                                              disabled={true}
+                                                              forwardRef={null}
+                                                              onClick={[Function]}
+                                                              role="button"
                                                               size="xsmall"
                                                             >
                                                               <Component
-                                                                align="center"
-                                                                className="css-cmi7y3-ButtonLabel edwq9my1"
+                                                                aria-disabled={true}
+                                                                className="css-1lloe1u-StyledButton edwq9my0"
+                                                                data-test-id="delete"
+                                                                forwardRef={null}
+                                                                onClick={[Function]}
+                                                                role="button"
                                                                 size="xsmall"
                                                               >
-                                                                <span
-                                                                  className="css-cmi7y3-ButtonLabel edwq9my1"
+                                                                <button
+                                                                  aria-disabled={true}
+                                                                  className="css-1lloe1u-StyledButton edwq9my0"
+                                                                  data-test-id="delete"
+                                                                  onClick={[Function]}
+                                                                  role="button"
+                                                                  size="xsmall"
                                                                 >
-                                                                  <Icon
-                                                                    hasChildren={false}
+                                                                  <ButtonLabel
+                                                                    align="center"
                                                                     size="xsmall"
                                                                   >
                                                                     <Component
-                                                                      className="css-1j44i9a-Icon edwq9my2"
-                                                                      hasChildren={false}
+                                                                      align="center"
+                                                                      className="css-cmi7y3-ButtonLabel edwq9my1"
                                                                       size="xsmall"
                                                                     >
                                                                       <span
-                                                                        className="css-1j44i9a-Icon edwq9my2"
-                                                                        size="xsmall"
+                                                                        className="css-cmi7y3-ButtonLabel edwq9my1"
                                                                       >
-                                                                        <StyledInlineSvg
-                                                                          size="12px"
-                                                                          src="icon-trash"
+                                                                        <Icon
+                                                                          hasChildren={false}
+                                                                          size="xsmall"
                                                                         >
-                                                                          <ForwardRef
-                                                                            className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
-                                                                            size="12px"
-                                                                            src="icon-trash"
+                                                                          <Component
+                                                                            className="css-1j44i9a-Icon edwq9my2"
+                                                                            hasChildren={false}
+                                                                            size="xsmall"
                                                                           >
-                                                                            <svg
-                                                                              className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
-                                                                              height="12px"
-                                                                              viewBox={Object {}}
-                                                                              width="12px"
+                                                                            <span
+                                                                              className="css-1j44i9a-Icon edwq9my2"
+                                                                              size="xsmall"
                                                                             >
-                                                                              <use
-                                                                                href="#test"
-                                                                                xlinkHref="#test"
-                                                                              />
-                                                                            </svg>
-                                                                          </ForwardRef>
-                                                                        </StyledInlineSvg>
+                                                                              <StyledInlineSvg
+                                                                                size="12px"
+                                                                                src="icon-trash"
+                                                                              >
+                                                                                <ForwardRef
+                                                                                  className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
+                                                                                  size="12px"
+                                                                                  src="icon-trash"
+                                                                                >
+                                                                                  <svg
+                                                                                    className="css-nc0ns5-InlineSvg-StyledInlineSvg edwq9my3"
+                                                                                    height="12px"
+                                                                                    viewBox={Object {}}
+                                                                                    width="12px"
+                                                                                  >
+                                                                                    <use
+                                                                                      href="#test"
+                                                                                      xlinkHref="#test"
+                                                                                    />
+                                                                                  </svg>
+                                                                                </ForwardRef>
+                                                                              </StyledInlineSvg>
+                                                                            </span>
+                                                                          </Component>
+                                                                        </Icon>
                                                                       </span>
                                                                     </Component>
-                                                                  </Icon>
-                                                                </span>
+                                                                  </ButtonLabel>
+                                                                </button>
                                                               </Component>
-                                                            </ButtonLabel>
-                                                          </button>
-                                                        </Component>
-                                                      </StyledButton>
-                                                    </Button>
-                                                  </forwardRef<Button>>
-                                                </a>
+                                                            </StyledButton>
+                                                          </Button>
+                                                        </forwardRef<Button>>
+                                                      </a>
+                                                    </Component>
+                                                  </Anchor>
+                                                </Link>
                                                 <Modal
                                                   animation={false}
                                                   autoFocus={true}
