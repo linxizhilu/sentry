@@ -9,19 +9,15 @@ import OnboardingSidebar from 'app/components/onboardingWizard/sidebar';
 import {Organization, OnboardingTaskStatus} from 'app/types';
 import space from 'app/styles/space';
 import theme, {Theme} from 'app/utils/theme';
+import {SidebarPanelProps} from 'app/components/sidebar/types';
 import ProgressRing, {
   RingBackground,
   RingBar,
   RingText,
 } from 'app/components/progressRing';
 
-type Props = {
+type Props = SidebarPanelProps & {
   org: Organization;
-  currentPanel: string;
-  onShowPanel: () => void;
-  hidePanel: () => void;
-  showPanel: boolean;
-  collapsed: boolean;
 };
 
 function recordAnalytics(currentPanel: string, orgId: string) {
@@ -52,7 +48,15 @@ class OnboardingStatus extends React.Component<Props> {
   }
 
   render() {
-    const {collapsed, org, currentPanel, hidePanel, showPanel, onShowPanel} = this.props;
+    const {
+      collapsed,
+      org,
+      currentPanel,
+      orientation,
+      hidePanel,
+      showPanel,
+      onShowPanel,
+    } = this.props;
 
     if (!(org.features && org.features.includes('onboarding'))) {
       return null;
@@ -100,7 +104,13 @@ class OnboardingStatus extends React.Component<Props> {
             </div>
           )}
         </Container>
-        {isActive && <OnboardingSidebar collapsed={collapsed} onClose={hidePanel} />}
+        {isActive && (
+          <OnboardingSidebar
+            orientation={orientation}
+            collapsed={collapsed}
+            onClose={hidePanel}
+          />
+        )}
       </React.Fragment>
     );
   }

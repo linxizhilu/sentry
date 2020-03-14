@@ -8,19 +8,12 @@ import {loadIncidents} from 'app/actionCreators/serviceIncidents';
 import {SentryServiceStatus} from 'app/types';
 import space from 'app/styles/space';
 
-import {SidebarOrientation, SidebarPanelKey} from './types';
+import {SidebarPanelProps} from './types';
 import SidebarPanelEmpty from './sidebarPanelEmpty';
 import SidebarItem from './sidebarItem';
 import SidebarPanel from './sidebarPanel';
 
-type Props = {
-  orientation: SidebarOrientation;
-  collapsed: boolean;
-  showPanel: boolean;
-  currentPanel: SidebarPanelKey;
-  hidePanel: () => void;
-  onShowPanel: () => void;
-};
+type Props = SidebarPanelProps;
 
 type State = {
   status: SentryServiceStatus | null;
