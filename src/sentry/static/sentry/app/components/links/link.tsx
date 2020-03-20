@@ -55,7 +55,9 @@ class Link extends React.Component<Props> {
 
 export default Link;
 
-const Anchor = styled('a', {shouldForwardProp: prop => isPropValid(prop) && prop !== 'disabled'})<{disabled?: boolean}>`
+const Anchor = styled('a', {
+  shouldForwardProp: prop => isPropValid(prop) && prop !== 'disabled',
+})<{disabled?: boolean}>`
   ${p =>
     p.disabled &&
     `
